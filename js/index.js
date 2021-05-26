@@ -27,7 +27,7 @@ githubButton.addEventListener('click', () => {
 });
 
 discordButton.addEventListener('click', () => {
-    window.open("https://statifybot.net/discord/", "_blank");
+    window.open("https://discord.gg/zJM7cdxZ4b", "_blank");
 });
 
 statifyLinkButton.addEventListener('click', () => {

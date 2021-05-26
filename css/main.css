@@ -23,3 +23,23 @@
     padding-top: 300px;
     padding-bottom: 300px;
 }
+
+.background-white {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.color-white {
+    color: hsl(0, 0%, 96%);
+}
+
+.background-color {
+    background-color: #272f45;
+}
+
+body {
+    background-color: #272f45;
+}
+
+.background-transparency {
+    background-color: rgba(0, 0, 0, 0)
+}
