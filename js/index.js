@@ -19,6 +19,8 @@ const croupierInviteButton = document.querySelector('#croupier-invite');
 const croupierGitHubButton = document.querySelector('#croupier-github');
 const redcodesLinkButton = document.querySelector('#redcodes-link');
 const redcodesGitHubButton = document.querySelector('#redcodes-github');
+const slockDownloadButton = document.querySelector('#slock-download');
+const slockGitHubButton = document.querySelector('#slock-github');
 
 githubButton.addEventListener('click', () => {
     window.open("https://github.com/RedstonecraftHD", "_blank");
@@ -58,4 +60,12 @@ redcodesGitHubButton.addEventListener('click', () => {
 
 redcodesLinkButton.addEventListener('click', () => {
     window.open("https://redcodes.dev/", "_blank");
+});
+
+slockGitHubButton.addEventListener('click', () => {
+    window.open("https://github.com/RedstonecraftHD/Slock", "_blank");
+});
+
+slockDownloadButton.addEventListener('click', () => {
+    window.open("https://www.spigotmc.org/resources/slock-advanced-server-locker.68672/", "_blank");
 });
