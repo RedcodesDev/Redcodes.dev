@@ -6,8 +6,8 @@ window.onload = function () {
 
 
     //Particle JS
-    particlesJS.load('particles-js', 'resources/libs/particlesjs-config.json');
-    particlesJS.load('content-particles', 'resources/libs/content-particlesjs-config.json');
+    particlesJS.load('particles-js', './resources/libs/particlesjs-config.json');
+    particlesJS.load('content-particles', './resources/libs/content-particlesjs-config.json');
 
 
     recalculateSizes();
